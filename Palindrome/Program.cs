@@ -10,6 +10,11 @@ namespace Palindrome
     {
         static void Main(string[] args)
         {
+            Palindrome current = new Palindrome();
+            current.ExecutePalindrome();
+
+            Console.WriteLine("END OF PROGRAM");
+            Console.ReadKey();
         }
     }
 }
